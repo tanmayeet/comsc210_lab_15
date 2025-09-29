@@ -9,7 +9,12 @@ class Movie {
   string title;
 
  public:
+  string getSW() { return screenWriter; }
+  void setSW(string s) { screenWriter = s; }
+  int getYR() { return yearReleased; }
+  void setYR(int y) { yearReleased = y; }
+  string getTitle() { return title; }
+  void setGreen(int t) { title = t; }
 };
-// jernti
 
 int main() { return 0; }
